@@ -8,7 +8,7 @@ export default new MainSource({
 	name: 'Kauri',
 	global: 'Kauri',
 	docsRepo: 'Pokemon-URPG/kauri',
-	repo: 'Pokemon-URPG/professor-kauri',
+	repo: 'Pokemon-URPG/kauri-website',
 	defaultTag: 'main',
 	branchFilter: (branch: string) => !branchBlacklist.has(branch) && !branch.startsWith('dependabot/'),
 	tagFilter: (tag: string) => semver.gte(tag.replace(/(^@.*\/.*@v?)?(?<semver>\d+.\d+.\d+)-?.*/, '$<semver>'), '9.0.0'),
